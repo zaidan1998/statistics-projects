@@ -1,0 +1,10 @@
+ library(openxlsx)
+> data = read.csv("bptms_Unemployment_Rate_by_state (1).csv")
+> data
+
+> str(data)
+
+> data = read.csv("bptms_Unemployment_Rate_by_state (1).csv", stringsAsFactors= FALSE)
+> str(data)
+
+

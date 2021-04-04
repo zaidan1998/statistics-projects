@@ -1,0 +1,47 @@
+getwd()
+getwd()
+x = 1:10
+x
+y = c(2, 4, 7, 9, 13, 15, 14, 18, 21, 24)
+y
+str(x)
+str(y)
+str(x)
+plot(x, y)
+abline(lm(y~x))
+abline(1m(y~x))
+abline(lm(y~x))
+plot(x, y, pch = 16, col = "blue")
+abline(lm(y~x), col = "red")
+plot(x, y, pch = 16, col = "blue", main= "my first plot")
+abline(lm(y~x), col = "red")
+data <- as.numeric(scan("temperature.txt", what = "char"))
+str(data)
+summary(data)
+hist(data)
+plot(data)
+abline(lm(plot))
+hist(data)
+abline(data)
+plot(data)
+abline(data)
+hist(data)
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-
+2014.csv", header= TRUE, stringsAsFactors = FALSE)
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-
+2014.csv", header= TRUE, stringsAsFactors = FALSE)
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-
+2014.csv", header= TRUE, stringsAsFactors = FALSE)
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-2014.csv", header= TRUE, stringsAsFactors = FALSE)
+birthrate = read.csv("bppd_Crude_Birth_Rate_Malaysia_1911-2014.csv", header= TRUE, stringsAsFactors = FALSE)
+str(birthdate)
+str(birthrate)
+hist(birthrate)
+plot(birthdate)
+x <- 1: 100 #generate a vector from 1 to 100 
+sample(x, 100, replace = FALSE) #try with replace = TRUE
+sample(x, 5, replace = FALSE) #try with replace = TRUE
+sample(x, 100, replace = TRUE) #try with replace = TRUE
+savehistory("feb22class")

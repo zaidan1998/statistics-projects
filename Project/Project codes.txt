@@ -1,0 +1,91 @@
+barplot(as.matrix(data[1:13,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2016", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+barplot(as.matrix(data[14:26,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2015", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+barplot(as.matrix(data[27:39,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2014", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+barplot(as.matrix(data[40:52,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2013", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+barplot(as.matrix(data[53:65,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2012", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+barplot(as.matrix(data[66:78,3]), beside=TRUE, names.arg=c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T"), main="Unemployment Rate by State in 2011", xlab="States", ylab="Unemployment Rate (%)", ylim=c(0,6), col=heat.colors(4), border="black")
+
+plot(as.matrix(data[1:6,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Johor", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[1:6,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[7:12,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Kedah", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[7:12,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[13:18,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Kelantan", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[13:18,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[19:24,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Melaka", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[19:24,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[25:30,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Negeri Sembilan", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[25:30,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[31:36,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Pahang", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[31:36,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[37:42,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Perak", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[37:42,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[43:48,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Perlis", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[43:48,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[49:54,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Pulau Pinang", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[49:54,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[55:60,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Sabah", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[55:60,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[61:66,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Sarawak", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[61:66,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[67:72,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Selangor", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[67:72,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+plot(as.matrix(data[73:78,3])~as.matrix(data[1:6,2]), main="Unemployment Rate by Year in Terengganu", xlab="Year", ylab="Unemployment Rate (%)", xlim=c(2011, 2016), ylim=c(0, 6), col="blue")
+lines(as.matrix(data[73:78,3])~as.matrix(data[1:6,2]), col="blue")
+ 
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2016")
+
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2015")
+ 
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2014")
+  
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2013")
+
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2012")
+
+pielabels<-c("J", "K", "D", "M", "N", "C", "A", "R", "P", "S", "Q", "B", "T")
+pct<-round(as.matrix(data[1:13,3])/sum(as.matrix(data[1:13,3]))*100,1)
+pielabels<-paste(pielabels, pct)
+pielabels<-paste(pielabels, "%", sep="")
+pie(as.matrix(data[1:13, 3]), labels=pielabels, edges=300, radius=1.0, angle=45, cex=0.7, col=rainbow(length(pielabels)), main="Percentage of Unemployment Rate in 2011")
+
+boxplot(Rate~Year,data=data,main="Unemployment Rate by Year",xlab="Year",ylab="Unemployment Rate (%)",col="orange",border="brown")
+
+ 
+  

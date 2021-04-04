@@ -1,0 +1,44 @@
+
+R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> getwd()
+[1] "C:/Users/user/Desktop/ProbStat"
+> data <- as.numeric(scan("SalaryGovernor.txt", what = "char"))
+Read 25 items
+> str(data)
+ num [1:25] 112895 117312 140533 110000 115331 ...
+> range(data)
+[1]  70000 177500
+> min(data)
+[1] 70000
+> max(data)
+[1] 177500
+> data.freq <- table(data)
+> percent.freq <- data.freq*100/sum(data.freq)
+> data2 <- cbind(as.numeric(names(data.freq)), data.freq, percent.freq )
+> colnames(data2)[1] <- "salary"
+> write.table(data2, file = "updatedSalaryGovernor.txt", row.names = FALSE,quote = FALSE)
+> breaks = seq(70000, 177500, by = width)
+Error in seq.default(70000, 177500, by = width) : 
+  object 'width' not found
+> hist(SalaryGovernor.txt)
+Error in hist(SalaryGovernor.txt) : object 'SalaryGovernor.txt' not found
+> hist(data)
+> hist(data, main="Salaries of Governors", xlab="Salary")
+> 
